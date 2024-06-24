@@ -169,7 +169,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/beckham/proprietary/vendor/lib/com.motorola.mod@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.motorola.mod@1.0_vendor.so \
     vendor/motorola/beckham/proprietary/vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
     vendor/motorola/beckham/proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.keymaster@3.0-impl-qti.so \
-    vendor/motorola/beckham/proprietary/vendor/lib/hw/audio.primary.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.sdm660.so \
     vendor/motorola/beckham/proprietary/vendor/lib/hw/camera.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.sdm660.so \
     vendor/motorola/beckham/proprietary/vendor/lib/hw/gatekeeper.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.sdm660.so \
     vendor/motorola/beckham/proprietary/vendor/lib/hw/libSonyDefocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libSonyDefocus.so \
@@ -180,7 +179,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/beckham/proprietary/vendor/lib/lib_mot_led_calibration.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_mot_led_calibration.so \
     vendor/motorola/beckham/proprietary/vendor/lib/lib_motsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_motsensorlistener.so \
     vendor/motorola/beckham/proprietary/vendor/lib/libactuator_mot_ak7371.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_mot_ak7371.so \
-    vendor/motorola/beckham/proprietary/vendor/lib/libaudioroute.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioroute.so \
     vendor/motorola/beckham/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
     vendor/motorola/beckham/proprietary/vendor/lib/libchromatix_imx386_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx386_4k_video_3a.so \
     vendor/motorola/beckham/proprietary/vendor/lib/libchromatix_imx386_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx386_common.so \
@@ -361,7 +359,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/beckham/proprietary/vendor/lib/libcppf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppf.so \
     vendor/motorola/beckham/proprietary/vendor/lib/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdepthmapwrapper.so \
     vendor/motorola/beckham/proprietary/vendor/lib/libdualcameraddm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdualcameraddm.so \
-    vendor/motorola/beckham/proprietary/vendor/lib/libeqservicebridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeqservicebridge.so \
     vendor/motorola/beckham/proprietary/vendor/lib/libflash_aw3643_front.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_aw3643_front.so \
     vendor/motorola/beckham/proprietary/vendor/lib/libflash_aw3643_rear.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_aw3643_rear.so \
     vendor/motorola/beckham/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
@@ -499,7 +496,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/beckham/proprietary/vendor/lib/libmodmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmodmanager.so \
     vendor/motorola/beckham/proprietary/vendor/lib/libmot_afd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot_afd.so \
     vendor/motorola/beckham/proprietary/vendor/lib/libmot_lux_standardization.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot_lux_standardization.so \
-    vendor/motorola/beckham/proprietary/vendor/lib/libmotaudioutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotaudioutils.so \
     vendor/motorola/beckham/proprietary/vendor/lib/libmotimager_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotimager_utils.so \
     vendor/motorola/beckham/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/motorola/beckham/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
@@ -507,19 +503,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/beckham/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/motorola/beckham/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
     vendor/motorola/beckham/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
-    vendor/motorola/beckham/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
-    vendor/motorola/beckham/proprietary/vendor/lib/libtinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyalsa.so \
-    vendor/motorola/beckham/proprietary/vendor/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so \
-    vendor/motorola/beckham/proprietary/vendor/lib/libtinycompress_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress_vendor.so \
-    vendor/motorola/beckham/proprietary/vendor/lib/libunshorten.so:$(TARGET_COPY_OUT_VENDOR)/lib/libunshorten.so \
     vendor/motorola/beckham/proprietary/vendor/lib/libvideobokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideobokeh.so \
     vendor/motorola/beckham/proprietary/vendor/lib/libzaf_algs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libzaf_algs.so \
     vendor/motorola/beckham/proprietary/vendor/lib/libzaf_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libzaf_core.so \
-    vendor/motorola/beckham/proprietary/vendor/lib/motorola.hardware.audio.eqservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.audio.eqservice@1.0_vendor.so \
     vendor/motorola/beckham/proprietary/vendor/lib/sensors.iio.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.iio.so \
     vendor/motorola/beckham/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
-    vendor/motorola/beckham/proprietary/vendor/lib/soundfx/libmmieffectswrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libmmieffectswrapper.so \
-    vendor/motorola/beckham/proprietary/vendor/lib/soundfx/libspeakerbundle.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libspeakerbundle.so \
     vendor/motorola/beckham/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
     vendor/motorola/beckham/proprietary/vendor/lib64/com.motorola.mod@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.motorola.mod@1.0_vendor.so \
     vendor/motorola/beckham/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
