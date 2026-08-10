@@ -12,8 +12,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/beckham/proprietary/system/etc/permissions/com.motorola.mod.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.mod.xml \
     vendor/motorola/beckham/proprietary/system/etc/permissions/com.motorola.mod_config.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.mod_config.xml \
     vendor/motorola/beckham/proprietary/system/etc/permissions/com.motorola.mod_v2.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.mod_v2.xml \
-    vendor/motorola/beckham/proprietary/system/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \
-    vendor/motorola/beckham/proprietary/system/etc/permissions/privapp-permissions-com.motorola.camera2.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.motorola.camera2.xml \
     vendor/motorola/beckham/proprietary/system/etc/permissions/privapp-permissions-com.motorola.modservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.motorola.modservice.xml \
     vendor/motorola/beckham/proprietary/system/etc/permissions/privapp-permissions-com.motorola.projectormod.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.motorola.projectormod.xml \
     vendor/motorola/beckham/proprietary/system/etc/sysconfig/hiddenapi-whitelist-com.motorola.modservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hiddenapi-whitelist-com.motorola.modservice.xml \
@@ -433,12 +431,9 @@ PRODUCT_PACKAGES += \
     libsecureui_svcsock \
     libssd \
     vendor.qti.hardware.tui_comm@1.0 \
-    MotoSignatureApp \
     ModFmwkProxyService \
     ModService \
-    MotCamera2 \
     ProjectorApp \
-    com.motorola.motosignature \
     charge_only_mode \
     android.hardware.biometrics.fingerprint@2.1-fpcservice \
     android.hardware.gatekeeper@1.0-service-qti \
