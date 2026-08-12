@@ -10916,7 +10916,6 @@ cc_prebuilt_binary {
                 "liblog",
                 "libbase",
                 "android.hardware.health@2.0",
-                "motorola.hardware.health@1.0",
                 "libc++",
                 "libc",
                 "libm",
@@ -10925,6 +10924,7 @@ cc_prebuilt_binary {
         },
     },
     compile_multilib: "64",
+    check_elf_files: false,
     strip: {
         none: true,
     },
